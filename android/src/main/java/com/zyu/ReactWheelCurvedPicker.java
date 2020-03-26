@@ -60,7 +60,7 @@ public class ReactWheelCurvedPicker extends WheelCurvedPicker {
         super.drawForeground(canvas);
 
         Paint paint = new Paint();
-        paint.setColor(Color.BLACK); // changed this from WHITE to BLACK
+        paint.setColor(this.mLineColor); // changed this from WHITE to BLACK
 	    
 	if (this.isLineGradient) {
 	  int colorFrom = this.mLinegradientFrom;
